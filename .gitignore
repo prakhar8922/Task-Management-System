@@ -60,7 +60,6 @@ Final_Solution.txt
 Final_Status.txt
 MANUAL_START_GUIDE.txt
 PRODUCTION_DEPLOYMENT.md
-README.md
 STARTUP_STATUS.txt
 TEST_START.ps1
 fix_and_start.ps1
@@ -103,7 +102,6 @@ manage.py
 NODE_MODULES/
 package-lock.json
 package.json
-README.md
 STARTUP_STATUS.txt
 TEST_START.ps1
 fix_and_start.ps1
@@ -115,7 +113,6 @@ START_HERE.txt
 NODE_VERSION.txt
 package-lock.json
 package.json
-README.md
 STARTUP_STATUS.txt
 TEST_START.ps1
 fix_and_start.ps1
