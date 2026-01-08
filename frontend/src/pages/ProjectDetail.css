@@ -1,0 +1,76 @@
+.project-detail {
+  animation: fadeIn 0.3s ease-in;
+}
+
+.back-link {
+  display: inline-block;
+  color: var(--primary-color);
+  text-decoration: none;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.tasks-section {
+  margin-top: 2rem;
+}
+
+.tasks-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-primary);
+}
+
+.tasks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.task-item {
+  display: block;
+  background-color: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s;
+}
+
+.task-item:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--primary-color);
+}
+
+.task-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.task-item-header h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.task-description {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  margin: 0;
+}

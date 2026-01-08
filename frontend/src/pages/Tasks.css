@@ -1,0 +1,63 @@
+.tasks-page {
+  animation: fadeIn 0.3s ease-in;
+}
+
+.tasks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.task-card {
+  background-color: var(--bg-primary);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.2s;
+}
+
+.task-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.task-title-link {
+  text-decoration: none;
+  color: var(--text-primary);
+  flex: 1;
+}
+
+.task-title-link h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.task-title-link:hover h3 {
+  color: var(--primary-color);
+}
+
+.task-meta {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.project-badge {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.75rem;
+  background-color: var(--bg-tertiary);
+  border-radius: 9999px;
+  color: var(--text-secondary);
+}
